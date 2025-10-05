@@ -4,6 +4,9 @@
 #define MAX_TAKS 10
 
 int main(){
+
+    printf("Welcome to My Todo List\n");
+
     char tasks[MAX_TAKS][100];
     int completed[MAX_TAKS] = {0};
     int taskcount = 0;
